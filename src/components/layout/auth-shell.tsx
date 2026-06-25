@@ -1,0 +1,3 @@
+export function AuthShell({ children }: { children: React.ReactNode }) {
+  return <div className="min-h-screen grid place-items-center bg-muted/30">{children}</div>;
+}
